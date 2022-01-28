@@ -1,0 +1,15 @@
+const TokenType = {
+    NUMBER : 'NUMBER',
+    SYMBOL_PLUS : 'SYMBOL_PLUS',
+    SYMBOL_MINUS : 'SYMBOL_MINUS',
+    SYMBOL_TIMES : 'SYMBOL_TIMES',
+    SYMBOL_DIVIDE : 'SYMBOL_DIVIDE',
+    SYMBOL_PERCENT : 'SYMBOL_PERCENT',
+    SYMBOL_OPEN_PAR : 'SYMBOL_OPEN_PAR',
+    SYMBOL_CLOSE_PAR : 'SYMBOL_CLOSE_PAR',
+    EOF : 'EOF'
+}
+
+Object.freeze(TokenType);
+
+module.exports = TokenType; 
