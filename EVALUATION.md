@@ -53,6 +53,8 @@ A et M sont autorécursives  sans de condition d'arrêt. Cette grammaire est ine
 7 - Dessinez l'AST correspondant à la formule suivante, avec le respect de la précédence des opérateurs : 
   - `(1 + 1) * 2 * (3 + 4) - 5`
 
+```
+
 	       '-'
 	      /  \
 	    '*'    5
@@ -62,6 +64,8 @@ A et M sont autorécursives  sans de condition d'arrêt. Cette grammaire est ine
  	 2  '+'  3  4
 	    / \
 	   1   1
+	   
+```
 8 - A partir du premier AST, schematisez ce qu'il se passe dans la pile d'exécution lors de sa resolution
 (vous devez dessiner une pile pour chaque étape en précisant les operations effectuées si nécéssaire) **(2 points)**
 
